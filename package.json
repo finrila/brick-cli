@@ -1,0 +1,47 @@
+{
+  "name": "sina-brick",
+  "description": "The Brick for sina. HTML5前端组件库",
+  "version": "0.1.0",
+  "author": {
+    "name": "Finrila"
+  },
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/finrila/sina-brick.git"
+  },
+  "bugs": {
+    "url": "http://github.com/finrila/sina-brick/issues"
+  },
+  "bin": {
+    "sina-brick": "bin/sina-brick.js"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "node bin/sina-brick test"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+  },
+  "devDependencies": {
+    "grunt": "~0.4.0"
+  },
+  "contributors": [
+  ],
+  "_id": "brick-cli@0.1.0",
+  "_from": "brick-cli@",
+  "_npmVersion": "0.1.0",
+  "_npmUser": {
+    "name": "finrila",
+    "email": "finrila@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "finrila",
+      "email": "finrila@gmail.com"
+    }
+  ],
+  "directories": {}
+}

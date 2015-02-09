@@ -1,0 +1,125 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@1.4.23
+3 info using node@v0.10.31
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose publish [ '.' ]
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . C:\Users\Finrila\AppData\Roaming\npm-cache\3a52ce78-.lock
+11 verbose tar pack [ 'C:\\Users\\Finrila\\AppData\\Roaming\\npm-cache\\brick\\0.1.0\\package.tgz',
+11 verbose tar pack   '.' ]
+12 verbose tarball C:\Users\Finrila\AppData\Roaming\npm-cache\brick\0.1.0\package.tgz
+13 verbose folder .
+14 info prepublish brick@0.1.0
+15 silly lockFile 1f1177db-tar tar://.
+16 verbose lock tar://. C:\Users\Finrila\AppData\Roaming\npm-cache\1f1177db-tar.lock
+17 silly lockFile d8c932a7-pm-cache-brick-0-1-0-package-tgz tar://C:\Users\Finrila\AppData\Roaming\npm-cache\brick\0.1.0\package.tgz
+18 verbose lock tar://C:\Users\Finrila\AppData\Roaming\npm-cache\brick\0.1.0\package.tgz C:\Users\Finrila\AppData\Roaming\npm-cache\d8c932a7-pm-cache-brick-0-1-0-package-tgz.lock
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 1f1177db-tar tar://.
+21 silly lockFile d8c932a7-pm-cache-brick-0-1-0-package-tgz tar://C:\Users\Finrila\AppData\Roaming\npm-cache\brick\0.1.0\package.tgz
+22 silly lockFile d8c932a7-pm-cache-brick-0-1-0-package-tgz tar://C:\Users\Finrila\AppData\Roaming\npm-cache\brick\0.1.0\package.tgz
+23 silly lockFile dfd019c7-ng-npm-cache-brick-0-1-0-package C:\Users\Finrila\AppData\Roaming\npm-cache\brick\0.1.0\package
+24 verbose lock C:\Users\Finrila\AppData\Roaming\npm-cache\brick\0.1.0\package C:\Users\Finrila\AppData\Roaming\npm-cache\dfd019c7-ng-npm-cache-brick-0-1-0-package.lock
+25 silly lockFile dfd019c7-ng-npm-cache-brick-0-1-0-package C:\Users\Finrila\AppData\Roaming\npm-cache\brick\0.1.0\package
+26 silly lockFile dfd019c7-ng-npm-cache-brick-0-1-0-package C:\Users\Finrila\AppData\Roaming\npm-cache\brick\0.1.0\package
+27 silly lockFile 3a52ce78- .
+28 silly lockFile 3a52ce78- .
+29 silly publish { name: 'brick',
+29 silly publish   description: 'The Brick command line interface.',
+29 silly publish   version: '0.1.0',
+29 silly publish   author: { name: 'Finrila' },
+29 silly publish   homepage: 'https://github.com/finrila/brick-cli',
+29 silly publish   repository: { type: 'git', url: 'git://github.com/finrila/brick-cli.git' },
+29 silly publish   bugs: { url: 'http://github.com/finrila/brick-cli/issues' },
+29 silly publish   bin: { brick: 'bin/brick' },
+29 silly publish   engines: { node: '>= 0.8.0' },
+29 silly publish   scripts: { test: 'node bin/brick test' },
+29 silly publish   preferGlobal: true,
+29 silly publish   dependencies: {},
+29 silly publish   devDependencies: { grunt: '~0.4.0' },
+29 silly publish   contributors: [],
+29 silly publish   _id: 'brick@0.1.0',
+29 silly publish   _from: '.',
+29 silly publish   _npmVersion: '0.1.0',
+29 silly publish   _npmUser: { name: 'finrila', email: 'finrila@gmail.com' },
+29 silly publish   maintainers: [ { name: 'finrila', email: 'finrila@gmail.com' } ],
+29 silly publish   directories: {},
+29 silly publish   readme: 'ERROR: No README data found!',
+29 silly publish   _shasum: '17cc7a2895c188e522efed8e7fceab5f4e5da9e2' }
+30 verbose request where is /brick
+31 verbose request registry https://registry.npmjs.org/
+32 verbose request id b2f44e335f7ddef0
+33 verbose url raw /brick
+34 verbose url resolving [ 'https://registry.npmjs.org/', './brick' ]
+35 verbose url resolved https://registry.npmjs.org/brick
+36 verbose request where is https://registry.npmjs.org/brick
+37 info trying registry request attempt 1 at 20:03:57
+38 http PUT https://registry.npmjs.org/brick
+39 http 403 https://registry.npmjs.org/brick
+40 verbose headers { date: 'Sat, 07 Feb 2015 12:03:28 GMT',
+40 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+40 verbose headers   'content-type': 'application/json',
+40 verbose headers   'cache-control': 'max-age=60',
+40 verbose headers   'content-length': '1590',
+40 verbose headers   'accept-ranges': 'bytes',
+40 verbose headers   via: '1.1 varnish',
+40 verbose headers   'x-served-by': 'cache-ty67-TYO',
+40 verbose headers   'x-cache': 'MISS',
+40 verbose headers   'x-cache-hits': '0',
+40 verbose headers   'x-timer': 'S1423310607.860043,VS0,VE150',
+40 verbose headers   'keep-alive': 'timeout=10, max=50',
+40 verbose headers   connection: 'Keep-Alive' }
+41 error publish Failed PUT 403
+42 error Error: forbidden user: finrila not authorized to modify brick
+42 error Changed: description "Component system for NodeJS and Browsers" -> "The Brick command line interface."
+42 error Changed: dist-tags.latest "0.0.10" -> "0.1.0"
+42 error Added: versions.0.1.0
+42 error Changed: readme "## brick\u000a\u000aUI Component system designed for NodeJS and front-end.\u000a\u000aFeatures:\u000a\u000a* Supports embedding and mixing components\u000a* Allows creating components with no JS. (And they can be published to NPM)\u000a* Static output with compiled assets\u000a* Recovers DOM state on client-side\u000a* Supports generating stand-alone distributions\u000a* Comes with stream APIs for compiling JS, CSS, and HTML\u000a\u000a## Install\u000a\u000a```bash\u000a$ npm install brick\u000a```\u000a\u000a## Intro\u000a\u000aCheck out [tests](https://github.com/bricks/brick/tree/master/test/fixtures) for examples.\u000a" -> "ERROR: No README data found!"
+42 error Changed: time.modified "2014-09-18T07:24:43.083Z" -> "2015-02-07T12:06:53.812Z"
+42 error Added: time.0.1.0
+42 error Changed: author.name "Azer Koçulu" -> "Finrila"
+42 error Deleted: author.email
+42 error Changed: repository.url "git@github.com:azer/brick.git" -> "git://github.com/finrila/brick-cli.git"
+42 error Changed: homepage "https://github.com/azer/brick" -> "https://github.com/finrila/brick-cli"
+42 error Deleted: keywords
+42 error Changed: bugs.url "https://github.com/azer/brick/issues" -> "http://github.com/finrila/brick-cli/issues"
+42 error Deleted: license
+42 error Changed: readmeFilename "README.md" -> ""
+42 error Added: contributors
+42 error Added: _attachments: brick
+42 error     at RegClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:300:14)
+42 error     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:238:65)
+42 error     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:123:22)
+42 error     at Request.emit (events.js:98:17)
+42 error     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:893:14)
+42 error     at Request.emit (events.js:117:20)
+42 error     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:844:12)
+42 error     at IncomingMessage.emit (events.js:117:20)
+42 error     at _stream_readable.js:943:16
+42 error     at process._tickCallback (node.js:419:13)
+43 error If you need help, you may report this *entire* log,
+43 error including the npm and node versions, at:
+43 error     <http://github.com/npm/npm/issues>
+44 error System Windows_NT 6.2.9200
+45 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+46 error cwd d:\Finrila\git_works\brick
+47 error node -v v0.10.31
+48 error npm -v 1.4.23
+49 verbose exit [ 1, true ]
